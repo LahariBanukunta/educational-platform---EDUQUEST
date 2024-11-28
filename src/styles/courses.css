@@ -1,0 +1,72 @@
+/* General Styling */
+.courses-container {
+  padding: 20px;
+  text-align: center;
+}
+
+.title {
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+  color: #003366;
+  font-weight: bold;
+}
+
+.intro-text {
+  font-size: 1.2rem;
+  margin-bottom: 30px;
+  color: #555;
+}
+
+/* Button Styling */
+.subjects-container {
+  display: flex;
+  flex-direction: column; /* Vertical buttons */
+  align-items: center;
+}
+
+.subject-button, .back-button {
+  width: 90%;
+  max-width: 350px;
+  padding: 15px 20px;
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: #ffffff;
+  background-color: #0056d2;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  text-align: center;
+  margin: 10px 0;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.subject-button:hover, .back-button:hover {
+  background-color: #003f91;
+  transform: scale(1.05);
+}
+
+/* Topic Page Styling */
+.topics-container {
+  text-align: center;
+}
+
+.topics-list {
+  list-style: none;
+  padding: 0;
+  margin: 20px 0;
+}
+
+.topic-item {
+  margin: 15px 0;
+}
+
+.topic-link {
+  font-size: 1.3rem;
+  color: #0056d2;
+  text-decoration: none;
+}
+
+.topic-link:hover {
+  text-decoration: underline;
+  color: #003f91;
+}
