@@ -1,0 +1,67 @@
+/* General Styles */
+body {
+  margin: 0;
+  font-family: "Arial", sans-serif;
+  background-color: #f4f4f9;
+  color: #333;
+}
+
+/* Navbar Styles */
+.navbar {
+  background-color: #004c8c; /* Deep blue */
+  padding: 15px 20px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.navbar-list {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  margin: 0;
+  padding: 25px;
+}
+
+.navbar-list li {
+  margin: 0 15px;
+}
+.navbar-list li a{
+  font-size:30px;
+  padding: 200px;
+}
+
+.navbar-link {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+  font-size: 16px;
+  transition: color 0.3s;
+}
+
+.navbar-link:hover {
+  color: #ffdd57; /* Golden yellow for hover */
+}
+
+/* Welcome Section Styles */
+.welcome-section {
+  text-align: center;
+  padding: 50px 20px;
+  background-color: #e0f7fa; /* Light cyan */
+  margin-top: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.welcome-title {
+  font-size: 3em;
+  font-weight: bold;
+  color: #004c8c; /* Same deep blue as navbar */
+  margin-bottom: 20px;
+}
+
+.welcome-description {
+  font-size: 1em;
+  line-height: 1.6;
+  color: #555; /* Dark gray for readability */
+  max-width: 800px;
+  margin: 0 auto;
+}
